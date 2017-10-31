@@ -1,4 +1,4 @@
-# ansible-sonarqube-config-example
+# Ansible Sonarqube Config Example
 Minimal Ansible SonarQube Configuration Example.
 
 This will set a SonarQube instance Auth to true using uri, and also load a sample xml profile via curl.
