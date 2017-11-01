@@ -37,7 +37,9 @@ And the curl* command below loads in a profile:
 
 
 ## Requirements
-Local installation of Ansible.
+* Local installation of Ansible
+* SonarQube server to point to with API user configured
+* Profile xml file to upload
 
 ## Run
 
@@ -48,3 +50,5 @@ Call ansible-playbook command below:
 ```
 ansible-playbook -i ./inventory.yml SonarQubeConfig.yml
 ```
+
+
